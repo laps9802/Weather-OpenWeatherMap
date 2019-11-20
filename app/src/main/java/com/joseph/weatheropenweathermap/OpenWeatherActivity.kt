@@ -25,7 +25,7 @@ import retrofit2.Response
 class OpenWeatherActivity : AppCompatActivity(), LocationListener {
 
     private val PERMISSION_REQUEST_CODE = 2000
-    private val APP_ID = "42e3618f20e1574ad7f4d1cde2d00750"
+    private val APP_ID = "*************"        //sensitive information deleted
     private val UNITS = "metric"
     private val LANGUAGE = "kr"
     private lateinit var backPressHolder: OnBackPressHolder
